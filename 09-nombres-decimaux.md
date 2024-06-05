@@ -18,8 +18,17 @@ let quotient = x / y; // Division
 ````js
 console.log(0.1 + 0.2); // Affiche 0.30000000000000004 (et non 0.3)
 ````  
-* **Conversion** : Vous pouvez convertir des nombres décimaux en entiers en utilisant les fonctions parseInt() ou parseFloat().  
+* **Conversion** : Vous pouvez convertir des nombres décimaux en entiers en utilisant les fonctions `parseInt()`.  
 ````js
-let numString = "10.5";
-let num = parseFloat(numString); // Convertit la chaîne en nombre décimal (10.5)
+let floatNum = 10.5;
+let num = parseInt(floatNum); // Convertit le nombre décimal 10.5 en un nombre entier
+````  
+
+ Vous pouvez faire de même un conversion d'un nombre entiers en un nombre décimal en utilisant les fonctions `parseFloat()`.
+
+````js
+let num = 10;
+let floatNum = parseFloat(num); // Convertit le nombre entier 10 en un nombre décimal 10.0
+// NB: La console pourrait afficher juste 10 après conversion. Mais logiquement,
+// la variable "floatNum" est considérée comme un nombre décimal
 ````  
