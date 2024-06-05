@@ -1,6 +1,6 @@
 Vous savez maintenant que pour déclarer une variable de type string il faut entourer la valeur avec les doubles guillemets("") ou simple guillemets('') ou encore les back ticks(``).
 
-En JavaScript, certaines séquences de caractères ont des significations spéciales. Par exemple, les guillemets doubles (") et simples (') délimitent les chaînes de caractères, et la barre oblique inverse (\) est utilisée pour indiquer des caractères spéciaux. Pour inclure ces caractères dans une chaîne sans perturber le code, nous devons les échapper.
+En JavaScript, certaines séquences de caractères ont des significations spéciales. Par exemple, les guillemets doubles `(")` et simples `(')` délimitent les chaînes de caractères, et la barre oblique inverse `(\)` est utilisée pour indiquer des caractères spéciaux. Pour inclure ces caractères dans une chaîne sans perturber le code, nous devons les échapper.
 Il arrive des fois que la veuleur de notre string contient des doubles quotes ou guillemets simple.
 
 ## Exemple :
