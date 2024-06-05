@@ -38,7 +38,7 @@ Faite en sorte que la fonction `nextInLine` ajoute l'`item` et retire le premier
 
 ```js
 function nextInLine(arr, item) {
-    // 
+    // Vous pouvez modifiez le code ci-dessous
     return item;
 }
 
