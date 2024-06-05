@@ -27,9 +27,9 @@ La fonction `nextInLine` devrait donc ajouter l'`item` à la fin du tableau, et 
 Exemple: 
 
 ```js
-console.log("Avant: " + JSON.stringify(testArray)); // renvoie [1, 2, 3, 4, 5]
-console.log(nextInLine(testArray, 6)); // renvoie 6
-console.log("Après: " + JSON.stringify(testArray)); // renvoie [1, 2, 3, 4, 5, 6]
+console.log("Avant: " + JSON.stringify(testArray)); // devrait renvoiyer [1, 2, 3, 4, 5]
+console.log(nextInLine(testArray, 6)); // devrait renvoiyer 6
+console.log("Après: " + JSON.stringify(testArray)); // devrait renvoiyer [1, 2, 3, 4, 5, 6]
 ```
 
 ## Bonus
