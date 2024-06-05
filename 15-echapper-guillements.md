@@ -1,5 +1,5 @@
 ## Echapper les guillemets  
-Pour inclure des guillemets dans une chaîne de caractères délimitée par des guillemets du même type, vous devez les "échapper" en les précédant d'un backslash (\). Par exemple :  
+Pour inclure des guillemets dans une chaîne de caractères délimitée par des guillemets du même type, vous devez les "échapper" en les précédant d'un backslash `(\)`. Par exemple :  
 ````js
 let message = "Il a dit : \"Bonjour, monde !\"";
 console.log(message); // Affiche "Il a dit : "Bonjour, monde !""
