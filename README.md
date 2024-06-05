@@ -25,8 +25,8 @@ Vous découvrirez également la programmation orientée objet (OOP), la programm
 - 15 - Echapper les guillemets
 - 16 - Utilisation des guillemets simples
 - 17 - Séquences d'échapement
-- 18 - Opérateur +
-- 19 - Opérateur -
+- 18 - Concatenation de string
+- 19 - Opérateur -=
 - 20 - Opérateur +=
 - 21 - Construction de chaîne de caractères avec des variables
 - 22 - Concatener des variables aux chaînes de caractères
