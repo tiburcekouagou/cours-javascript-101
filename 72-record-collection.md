@@ -37,7 +37,7 @@ function updateRecords(records, id, prop, value) {
 ```
 Complétez la fonction en utilisant les règles ci-dessous pour modifier l'objet passé à la fonction.
 
-=> Votre fonction doit toujours renvoyer l'objet records entier.   
+=> Votre fonction doit toujours renvoyer `records` l'objet entier.   
 => Si `value` est une chaîne vide, supprimez la propriété prop donnée de l'album.   
 => Si `prop` n'est pas egale tracks et `value` n'est pas une chaîne vide, attribuez `value` au fichier prop.   
 => Si `prop` est trackset value n'est pas une chaîne vide, mais que l'album n'a pas de trackspropriété, créez un tableau vide et ajoutez value -le.   
