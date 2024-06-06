@@ -23,7 +23,7 @@ Voici un exemple d'utilisation de la `notation entre crochets` pour lire la prop
 **NB:** Notez que les noms de propriétés contenant des espaces **doivent être entre guillemets (simples ou doubles)**.
 
 ## Exemple 2:
-Lisons les valeurs des propriétés `"an entree"` et `"the drink"` de `testObj` en utilisant de la notation entre parenthèses et attribuez-les respectivement à entreeValue et drinkValue.
+Lisons les valeurs des propriétés `"an entree"` et `"the drink"` de `testObj` en utilisant de la notation entre crochets et attribuez-les respectivement à `entreeValue` et `drinkValue`.
 
 ```js
     const testObj = {
