@@ -76,3 +76,14 @@ const myMusic = [
 `checkObj({city: "Seattle"}, "city")` devrait renvoyer la chaîne `Seattle`.   
 `checkObj({city: "Seattle"}, "district")` devrait renvoyer la chaîne `Not Found`.   
 `checkObj({pet: "kitten", bed: "sleigh"}, "gift")` devrait renvoyer la chaîne `Not Found`.   
+
+## SOLUTION
+
+```js
+function checkObj(obj, checkProp) {
+    if (obj.hasOwnProperty(checkProp)){
+        return obj[checkProp];
+    } else
+        return "Not Found";
+}
+```
