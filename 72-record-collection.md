@@ -1,6 +1,5 @@
 # 72 - Record Collection
-Vous créez une fonction qui facilite la maintenance d'une collection d'albums musicaux. La collection est organisée comme un objet contenant plusieurs albums qui sont également des objets. Chaque album est représenté dans la collection avec un nom id de propriété unique. Dans chaque objet album, il existe diverses propriétés décrivant des informations sur l'album. Tous les albums ne contiennent pas des informations complètes.
-
+Ceci est un challenge que nous allons faire ensemble. Nous avons un objet `recordCollection`
 ## Exercice:
 La fonction `updateRecords` prend `4` arguments représentés par les paramètres de fonction suivants :
 
