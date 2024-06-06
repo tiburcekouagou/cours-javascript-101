@@ -34,14 +34,14 @@ Ajoutez un nouvel album au tableau myMusic. Ajoutez artist des title chaînes, r
         ];
 ```
 
-`myMusicdevrait` être un tableau   
-`myMusicdevrait` avoir au moins deux éléments   
+`myMusic` devrait être un tableau   
+`myMusic` devrait avoir au moins deux éléments   
 Les éléments du tableau `myMusic` doivent être des objets   
-Votre objet `myMusicdoit` avoir au moins `4` propriétés   
-Votre objet `myMusicdoit` contenir la propriété `artist` qui est une chaîne   
-Votre objet `myMusicdoit` contenir la propriété `title` qui est une chaîne   
-Votre objet `myMusicdoit` contenir la propriété `release_year` qui est un nombre   
-Votre objet `myMusicdoit` contenir une propriété `formats` qui est un tableau   
+Votre objet `myMusic` doit avoir au moins `4` propriétés   
+Votre objet `myMusic` doit contenir la propriété `artist` qui est une chaîne   
+Votre objet `myMusic` doit contenir la propriété `title` qui est une chaîne   
+Votre objet `myMusic` doit contenir la propriété `release_year` qui est un nombre   
+Votre objet `myMusic` doit contenir une propriété `formats` qui est un tableau   
 `formats` doit être un tableau de chaînes avec au moins deux éléments   
 Soit : 
 
