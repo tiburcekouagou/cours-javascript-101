@@ -15,7 +15,7 @@ Pour éviter d'avoir ce comportement, on peut faire une vérification à l'inté
 On peut donc faire ceci:
 ```js
     function estSuperieur(a, b) {
-            if (b = 0) {
+            if (b === 0) {
                 return "Calcule impossible";
             }
 
