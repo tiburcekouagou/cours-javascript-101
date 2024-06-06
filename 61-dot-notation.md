@@ -12,7 +12,7 @@ const utilisateur = {
 };
 
 const nomVal = utilisateur.nom;
-const prenomVal = utilisateur.prop2;
+const prenomVal = utilisateur.prenom;
 ```
 `nomVal` aurait une valeur égale à `Doe` et `prenom` aurait une valeur égale à `John`.
 
