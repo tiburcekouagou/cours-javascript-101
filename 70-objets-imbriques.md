@@ -27,25 +27,26 @@ Voici un objet imbriqué :
 ## Exercice:
 Accédez à l'objet `myStorage` et affectez le contenu de la propriété `"glove box"` à la variable `gloveBoxContents`. Utilisez la notation par points pour toutes les propriétés lorsque cela est possible, sinon utilisez la notation par crochets.
 
-    ```js
-        const myStorage = {
-            "car": {
-                "inside": {
-                "glove box": "maps",
-                "passenger seat": "crumbs"
-                },
-                "outside": {
-                "trunk": "jack"
-                }
-            }
-        };
+```js
+const myStorage = {
+        "car": {
+            "inside": {
+            "glove box": "maps",
+            "passenger seat": "crumbs"
+            },
+            "outside": {
+            "trunk": "jack"
+        }
+    }
+};
 
-        const gloveBoxContents = ?????;
-    ```
-`gloveBoxContents` devrait être égal à la chaîne `maps`.
-Votre code doit utiliser la notation par points, lorsque cela est possible, pour accéder aux propriétés de l'objet `myStorage`.
-`gloveBoxContents` doit toujours être déclaré avec const.
-Vous ne devez pas modifier l'objet `myStorage`.
+const gloveBoxContents = ?????;
+```
+
+`gloveBoxContents` devrait être égal à la chaîne `maps`.   
+Votre code doit utiliser la notation par points, lorsque cela est possible, pour accéder aux propriétés de l'objet `myStorage`.   
+`gloveBoxContents` doit toujours être déclaré avec `const`.   
+Vous ne devez pas modifier l'objet `myStorage`.   
 
 ## SOLUTION
 
